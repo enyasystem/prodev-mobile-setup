@@ -5,10 +5,10 @@ export default function Index() {
   return (
     <SafeAreaProvider>
       <SafeAreaView style={{ flex: 1 }}>
-        <ImageBackground source={require("@/assets/images/background-image.png")} style={styles.background} resizeMode="cover">
+        <ImageBackground source={require("../assets/images/background-image.png")} style={styles.background} resizeMode="cover">
           <View style={styles.container}>
             <View style={styles.companyLogo}>
-              <Image source={require("@/assets/images/Logo.png")} />
+              <Image source={require("../assets/images/Logo.png")} />
             </View>
             <View style={styles.textGroup}>
               <Text style={styles.textLarge}>Find your favorite place here</Text>
