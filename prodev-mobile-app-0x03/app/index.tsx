@@ -9,7 +9,7 @@ export default function Index() {
       <SafeAreaView style={styles.container}>
         <View style={styles.navGroup}>
           <Ionicons name="arrow-back" size={25} />
-          <Image source={require('../assets/images/Logo.png')} />
+            <Image source={require('../assets/images/Logo.png')} style={{ width: 28, height: 28 }} />
         </View>
         <Text style={styles.largeText}>Sign in to your</Text>
         <Text style={styles.largeText}>Account</Text>
@@ -59,7 +59,7 @@ export default function Index() {
                 gap: 5,
               }}
             >
-              <Image source={require('../assets/images/google.png')} />
+                <Image source={require('../assets/images/google.png')} style={{ width: 20, height: 20 }} />
               <Text style={styles.socialMediaButtonText}>
                 Continue with Google
               </Text>
@@ -74,7 +74,7 @@ export default function Index() {
                 gap: 5,
               }}
             >
-              <Image source={require('../assets/images/facebook.png')} />
+                <Image source={require('../assets/images/facebook.png')} style={{ width: 20, height: 20 }} />
               <Text style={styles.socialMediaButtonText}>
                 Continue with Facebook
               </Text>
