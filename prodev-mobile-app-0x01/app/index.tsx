@@ -1,22 +1,19 @@
+import * as React from "react";
 import { View, Text, StyleSheet } from "react-native";
 
-export default function Index() {
+export default function Index(): React.ReactElement {
   return (
     <View style={styles.container}>
-      <Text>Entry Screen - Awesome</Text>
+      <Text>Entry Screen - Awesome Really</Text>
 
       <View>
         <Text style={styles.largeText}>
           Typescript is great if you practice more
         </Text>
-
         <Text style={styles.mediumText}>
           React Native provides you a single codebase for cross platforms
         </Text>
-
-        <Text style={styles.smallText}>
-          ALX is awesome
-        </Text>
+        <Text style={styles.smallText}>ALX is awesome</Text>
       </View>
     </View>
   );
